@@ -1,0 +1,8 @@
+pypdf2>=3.0.1
+grobid-client-python
+requests
+numpy==1.26.4
+git+https://github.com/timbmg/nlpeer@fix-tei-xml-parser
+git+https://github.com/UKPLab/intertext-graph.git
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
+scikit-learn

@@ -1,0 +1,5 @@
+eval_log.json
+submission.zip
+__pycache__/
+*.pyc
+.venv/

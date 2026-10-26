@@ -1,0 +1,7 @@
+gpu-fp16 K8 a0.0 hit1=0.5878
+gpu-fp16 K8 a0.75 hit1=0.6170
+gpu-fp16 K8 a1.0 hit1=0.6090
+cpu-model_int8.onnx K8 a0.0 hit1=0.5745
+cpu-model_int8.onnx K8 a0.75 hit1=0.6011
+cpu-model_int8.onnx K8 a1.0 hit1=0.5957
+corr per query (mean) 0.863906562734342

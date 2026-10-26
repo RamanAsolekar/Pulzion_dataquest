@@ -1,0 +1,38 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  10%|#         | 1/10 [00:01<00:12,  1.35s/it]Fetching 10 files:  30%|###       | 3/10 [00:02<00:06,  1.11it/s]Fetching 10 files:  40%|####      | 4/10 [00:20<00:39,  6.60s/it]Fetching 10 files: 100%|##########| 10/10 [00:20<00:00,  2.02s/it]
+OK BAAI/bge-small-en-v1.5 C:\Users\Raman\.cache\huggingface\hub\models--BAAI--bge-small-en-v1.5\snapshots\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  10%|#         | 1/10 [00:03<00:30,  3.42s/it]Fetching 10 files:  20%|##        | 2/10 [00:03<00:13,  1.69s/it]Fetching 10 files:  40%|####      | 4/10 [00:53<01:37, 16.18s/it]Fetching 10 files: 100%|##########| 10/10 [00:53<00:00,  5.35s/it]
+OK BAAI/bge-base-en-v1.5 C:\Users\Raman\.cache\huggingface\hub\models--BAAI--bge-base-en-v1.5\snapshots\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  11%|#1        | 1/9 [00:03<00:25,  3.15s/it]Fetching 9 files:  33%|###3      | 3/9 [00:44<01:35, 15.99s/it]Fetching 9 files: 100%|##########| 9/9 [00:44<00:00,  4.90s/it]
+OK intfloat/e5-base-v2 C:\Users\Raman\.cache\huggingface\hub\models--intfloat--e5-base-v2\snapshots\f52bf8ec8c7124536f0efb74aca902b2995e5bcd
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  10%|#         | 1/10 [00:03<00:29,  3.23s/it]Fetching 10 files:  40%|####      | 4/10 [01:07<01:47, 17.89s/it]Fetching 10 files: 100%|##########| 10/10 [01:07<00:00,  6.72s/it]
+OK Snowflake/snowflake-arctic-embed-m-v1.5 C:\Users\Raman\.cache\huggingface\hub\models--Snowflake--snowflake-arctic-embed-m-v1.5\snapshots\e58a8f756156a1293d763f17e3aae643474e9b8a
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|#6        | 1/6 [00:03<00:16,  3.35s/it]Fetching 6 files:  33%|###3      | 2/6 [00:30<01:09, 17.32s/it]Fetching 6 files: 100%|##########| 6/6 [00:30<00:00,  5.07s/it]
+OK cross-encoder/ms-marco-MiniLM-L-12-v2 C:\Users\Raman\.cache\huggingface\hub\models--cross-encoder--ms-marco-MiniLM-L-12-v2\snapshots\7b0235231ca2674cb8ca8f022859a6eba2b1c968
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|#6        | 1/6 [00:03<00:15,  3.11s/it]Fetching 6 files:  33%|###3      | 2/6 [03:42<08:42, 130.52s/it]Fetching 6 files: 100%|##########| 6/6 [03:42<00:00, 37.14s/it] 
+OK BAAI/bge-reranker-base C:\Users\Raman\.cache\huggingface\hub\models--BAAI--bge-reranker-base\snapshots\2cfc18c9415c912f9d8155881c133215df768a70
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|#4        | 1/7 [00:04<00:28,  4.72s/it]Fetching 7 files:  43%|####2     | 3/7 [04:19<06:22, 95.60s/it]Fetching 7 files: 100%|##########| 7/7 [04:19<00:00, 37.08s/it]
+OK mixedbread-ai/mxbai-rerank-base-v1 C:\Users\Raman\.cache\huggingface\hub\models--mixedbread-ai--mxbai-rerank-base-v1\snapshots\800f24c113213a187e65bde9db00c15a2bb12738
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files:  20%|##        | 1/5 [00:02<00:10,  2.59s/it]Fetching 5 files:  40%|####      | 2/5 [01:00<01:46, 35.38s/it]Fetching 5 files: 100%|##########| 5/5 [01:00<00:00, 12.18s/it]
+OK Alibaba-NLP/gte-reranker-modernbert-base C:\Users\Raman\.cache\huggingface\hub\models--Alibaba-NLP--gte-reranker-modernbert-base\snapshots\f7481e6055501a30fb19d090657df9ec1f79ab2c
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|#6        | 1/6 [00:02<00:13,  2.74s/it]Fetching 6 files:  33%|###3      | 2/6 [04:45<11:08, 167.21s/it]Fetching 6 files: 100%|##########| 6/6 [04:45<00:00, 47.51s/it] 
+OK BAAI/bge-reranker-v2-m3 C:\Users\Raman\.cache\huggingface\hub\models--BAAI--bge-reranker-v2-m3\snapshots\953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  10%|#         | 1/10 [00:03<00:32,  3.65s/it]Fetching 10 files:  40%|####      | 4/10 [03:00<04:51, 48.56s/it]Fetching 10 files: 100%|##########| 10/10 [03:00<00:00, 18.08s/it]
+OK BAAI/bge-large-en-v1.5 C:\Users\Raman\.cache\huggingface\hub\models--BAAI--bge-large-en-v1.5\snapshots\d4aa6901d3a41ba39fb536a557fa166f842b0e09
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]C:\Users\Raman\AppData\Local\Programs\Python\Python313\Lib\site-packages\huggingface_hub\file_download.py:798: UserWarning: Not enough free disk space to download the file. The expected file size is: 870.17 MB. The target location C:\Users\Raman\.cache\huggingface\hub\models--mixedbread-ai--mxbai-rerank-large-v1\blobs only has 643.49 MB free disk space.
+  warnings.warn(
+Fetching 7 files:  14%|#4        | 1/7 [00:01<00:09,  1.53s/it]Fetching 7 files:  29%|##8       | 2/7 [02:35<06:29, 77.85s/it]
+FAIL mixedbread-ai/mxbai-rerank-large-v1 OSError('I/O error: IO Error: There is not enough space on the disk. (os error 112)')
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]C:\Users\Raman\AppData\Local\Programs\Python\Python313\Lib\site-packages\huggingface_hub\file_download.py:798: UserWarning: Not enough free disk space to download the file. The expected file size is: 1191.59 MB. The target location C:\Users\Raman\.cache\huggingface\hub\models--Qwen--Qwen3-Reranker-0.6B\blobs only has 0.00 MB free disk space.
+  warnings.warn(
+C:\Users\Raman\AppData\Local\Programs\Python\Python313\Lib\site-packages\huggingface_hub\file_download.py:798: UserWarning: Not enough free disk space to download the file. The expected file size is: 0.00 MB. The target location C:\Users\Raman\.cache\huggingface\hub\models--Qwen--Qwen3-Reranker-0.6B\blobs only has 0.00 MB free disk space.
+  warnings.warn(
+C:\Users\Raman\AppData\Local\Programs\Python\Python313\Lib\site-packages\huggingface_hub\file_download.py:798: UserWarning: Not enough free disk space to download the file. The expected file size is: 1.67 MB. The target location C:\Users\Raman\.cache\huggingface\hub\models--Qwen--Qwen3-Reranker-0.6B\blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Fetching 11 files:   9%|9         | 1/11 [00:02<00:23,  2.34s/it]C:\Users\Raman\AppData\Local\Programs\Python\Python313\Lib\site-packages\huggingface_hub\file_download.py:798: UserWarning: Not enough free disk space to download the file. The expected file size is: 11.42 MB. The target location C:\Users\Raman\.cache\huggingface\hub\models--Qwen--Qwen3-Reranker-0.6B\blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Fetching 11 files:  45%|####5     | 5/11 [00:02<00:02,  2.38it/s]C:\Users\Raman\AppData\Local\Programs\Python\Python313\Lib\site-packages\huggingface_hub\file_download.py:798: UserWarning: Not enough free disk space to download the file. The expected file size is: 0.01 MB. The target location C:\Users\Raman\.cache\huggingface\hub\models--Qwen--Qwen3-Reranker-0.6B\blobs only has 0.00 MB free disk space.
+  warnings.warn(
+C:\Users\Raman\AppData\Local\Programs\Python\Python313\Lib\site-packages\huggingface_hub\file_download.py:798: UserWarning: Not enough free disk space to download the file. The expected file size is: 2.78 MB. The target location C:\Users\Raman\.cache\huggingface\hub\models--Qwen--Qwen3-Reranker-0.6B\blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Fetching 11 files:  45%|####5     | 5/11 [00:30<00:36,  6.15s/it]
+FAIL Qwen/Qwen3-Reranker-0.6B OSError('I/O error: IO Error: There is not enough space on the disk. (os error 112)')

@@ -1,0 +1,55 @@
+{"query_id": "hba6fbfef", "query": "What happens to agreement with measured sulfuric acid when global radiation is replaced by OH observations in proxy 4?"}
+{"query_id": "h9feee4d6", "query": "Why did the authors refit the coefficients of the fourth proxy and what does the new equation look like?"}
+{"query_id": "h2a1d509f", "query": "Which proxies should give daytime estimates more consistent with the Amazon data when radiation exceeds 100 W m-2?"}
+{"query_id": "h27aea097", "query": "Which proxy is recommended for estimating H2SO4 at night in Amazon-like environments when OH is not measured?"}
+{"query_id": "h4e635412", "query": "Does the parameterization include a loss term for stabilized Criegee intermediates given the high humidity?"}
+{"query_id": "he5c90291", "query": "Which production pathways contribute to sulfuric acid during low light and nighttime conditions in the Amazon basin?"}
+{"query_id": "h84365160", "query": "What fraction of PM2.5 mass in Hohhot was organic matter, mineral dust, sulfate and nitrate?"}
+{"query_id": "h5c20c823", "query": "By how much did the vehicular emission contribution drop during the lockdown in the semi-arid city?"}
+{"query_id": "h1842e874", "query": "What were the main source contributions to fine particles identified over the full year in Hohhot?"}
+{"query_id": "hff12e221", "query": "Why did heavy pollution episodes occur in winter compared to spring in the semi-arid city?"}
+{"query_id": "h05cd4d91", "query": "What policy recommendation do the authors make for lowering fine particulate levels in Hohhot?"}
+{"query_id": "h5fe0d464", "query": "Why did the traffic-related contribution increase again after the lockdown ended?"}
+{"query_id": "ha7caf7de", "query": "Why do the CMIP6 models and ERA5 disagree with the ESA satellite water vapour product across circulation regimes?"}
+{"query_id": "h761ff538", "query": "Which processes make it difficult for climate models to represent moistening of the tropical atmosphere?"}
+{"query_id": "h14f81aec", "query": "How many sudden stratospheric warming events were in the composite, and is that sample large enough for robust conclusions?"}
+{"query_id": "hbd5fabe6", "query": "Could output from coupled chemistry-climate models be used to enlarge the SSW sample?"}
+{"query_id": "hd3e5641c", "query": "Why was a 0.5 degree horizontal grid used for the trajectory runs instead of a finer one?"}
+{"query_id": "ha47c2421", "query": "How long were the backward trajectories integrated and how was convergence of the cold point checked?"}
+{"query_id": "h71fd11ec", "query": "By how much did lower nitrogen oxide emissions during the 2020 lockdowns raise the methane growth rate?"}
+{"query_id": "h09f168d9", "query": "What portion of the observed 2020 methane anomaly can be explained by lockdown-related emission changes?"}
+{"query_id": "hebfa6a2c", "query": "How did the formaldehyde to NO2 ratio during the 2022 Shanghai lockdown compare with previous years?"}
+{"query_id": "hb61b60aa", "query": "What HCHO/NO2 ratios did OMI observe over Shanghai in spring in earlier years?"}
+{"query_id": "h9d083d57", "query": "Why do satellite column CO2 observations introduce representation errors when used in inverse models over India?"}
+{"query_id": "hd91dcb35", "query": "What precision do current satellites achieve for column-averaged carbon dioxide?"}
+{"query_id": "h5d02080e", "query": "What were the median surface representation errors in July and November for day and night?"}
+{"query_id": "hfeb00d83", "query": "Where does the sub-grid variability of XCO2 become largest and how large can it get?"}
+{"query_id": "h978d4ab1", "query": "Why was 0.1 mm chosen as the lower size cutoff for ice crystal number concentrations?"}
+{"query_id": "h6c4ea220", "query": "How were cloud segments containing supercooled liquid identified and removed from the analysis?"}
+{"query_id": "h422ff6b8", "query": "How many air parcels does the Lagrangian model advect and which reanalysis winds drive it?"}
+{"query_id": "hd5180ee0", "query": "Does switching the CH4 lower boundary from NOAA to satellite data create a discontinuity in the time series?"}
+{"query_id": "hd5ce15c2", "query": "Why was fixed mask destriping not applied to the TROPOMI carbon monoxide data?"}
+{"query_id": "h40f3ecdf", "query": "Why are fire radiative power uncertainties considered too poorly constrained for orthogonal distance regression?"}
+{"query_id": "ha7a6d6db", "query": "What are the re-derived TPM smoke emission coefficients for each biome after changing the regression method?"}
+{"query_id": "hf9157b5d", "query": "How much lower are the new total particulate matter coefficients compared to the earlier published values?"}
+{"query_id": "hbec6e408", "query": "Why would a 3D chemistry-climate model be required to fully represent smoke self-lofting?"}
+{"query_id": "h65140ad7", "query": "Why does a reduced extinction coefficient lead to weaker lofting on the following day?"}
+{"query_id": "hfeb06dac", "query": "Why is heating by sulfur dioxide neglected in the Pinatubo simulations?"}
+{"query_id": "h5160b4c0", "query": "Which model with multiphase chemistry and aerosol microphysics is used to simulate the volcanic cloud?"}
+{"query_id": "h50a10e35", "query": "What were the isoprene and oxygenated VOC concentrations at Nam Co?"}
+{"query_id": "h10df1b90", "query": "Did nitrogen dioxide at the remote plateau site show any diurnal difference?"}
+{"query_id": "h95988997", "query": "What share of total iron deposition is due to dry deposition in the two soil mineralogy experiments?"}
+{"query_id": "h351c5127", "query": "In which ocean basins do the two mineralogy maps give the largest differences in iron deposition?"}
+{"query_id": "h252e2ff8", "query": "Which wavelength pairs were used to compute the scattering and absorption Angstrom exponents?"}
+{"query_id": "h677d8935", "query": "How were the positive matrix factorization solutions validated for robustness?"}
+{"query_id": "h31f22c9c", "query": "Why was the sum of identified ions rather than PM1 used as the total mass in the PMF model?"}
+{"query_id": "h14709b1a", "query": "Is the effect of the boundary-condition discontinuity on the CLaMS results negligible?"}
+{"query_id": "h9e9ce3af", "query": "Is the model's underestimation of deposited dust over the Southern Ocean affecting iron flux estimates?"}
+{"query_id": "hb4ad90e7", "query": "What size range of particles was covered by the composite size distributions from the imaging probes?"}
+{"query_id": "hdda55d52", "query": "Does using measured hydroxyl radical instead of radiation bring the proxy estimates closer to the 1:1 line?"}
+{"query_id": "hbe897902", "query": "Why does uncertainty-based weighting give undue influence to large fires in the regression?"}
+{"query_id": "7103a23382", "query": "How did the COVID-19 lockdown measures impact the sources of PM2.5?"}
+{"query_id": "ce67f574af", "query": "If direct measurements of OH concentrations are used in Proxy 4, how much does that improve the estimation of sulfuric acid concentrations?"}
+{"query_id": "c6e18e19d3", "query": "What is the reasoning behind using OLS instead of ODR for the analysis, and does the 14% difference in values justify the switch?"}
+{"query_id": "5386f46dc4", "query": "How are liquid droplets/raindrops separated from ice crystals in 2DS and PIP measurements, and is the statement in the paper entirely accurate?"}
+{"query_id": "bffbc4f98e", "query": "Why was the methane boundary condition changed from NOAA to AIRS after 2011?"}

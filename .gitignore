@@ -1,0 +1,11 @@
+# Model weights (too large for GitHub; re-download with round 2/dev/dl_models.py)
+*.onnx
+round 2/dev/onnx_models/
+
+# Caches / build output
+__pycache__/
+*.pyc
+.venv/
+venv/
+round 2/dev/cache/*.npy
+catboost_info/tmp/

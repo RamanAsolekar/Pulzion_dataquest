@@ -1,0 +1,79 @@
+{
+  "config": {
+    "tag": "dataquest-local",
+    "port": 8080,
+    "memory": "2.5g",
+    "memory_swap": "2.5g",
+    "cpus": null,
+    "cpuset": "0,2,4,6",
+    "threads": 4,
+    "pids_limit": "512",
+    "read_only": true,
+    "tmpfs_size": "1g",
+    "execution_timeout_s": 2400.0,
+    "n_docs": 20,
+    "n_queries": 5
+  },
+  "startup_time_s": 6.832344055175781,
+  "ingest_time_s": 5.289398670196533,
+  "retrieval_time_s": 10.863422155380249,
+  "total_time_s": 22.98516821861267,
+  "peak_memory_bytes": 1594506608,
+  "score": 1.0,
+  "metric": "Hit@1",
+  "timed_out": false,
+  "completed_queries": 5,
+  "disqualified": false,
+  "per_query": [
+    {
+      "query_id": "7103a23382",
+      "relevant": [
+        "D0003",
+        "D0004"
+      ],
+      "returned": "D0003",
+      "hit": 1,
+      "error": null
+    },
+    {
+      "query_id": "ce67f574af",
+      "relevant": [
+        "D0001",
+        "D0002"
+      ],
+      "returned": "D0001",
+      "hit": 1,
+      "error": null
+    },
+    {
+      "query_id": "c6e18e19d3",
+      "relevant": [
+        "D0014",
+        "D0015"
+      ],
+      "returned": "D0015",
+      "hit": 1,
+      "error": null
+    },
+    {
+      "query_id": "5386f46dc4",
+      "relevant": [
+        "D0012"
+      ],
+      "returned": "D0012",
+      "hit": 1,
+      "error": null
+    },
+    {
+      "query_id": "bffbc4f98e",
+      "relevant": [
+        "D0013"
+      ],
+      "returned": "D0013",
+      "hit": 1,
+      "error": null
+    }
+  ],
+  "ingest_errors": [],
+  "retrieve_errors": []
+}

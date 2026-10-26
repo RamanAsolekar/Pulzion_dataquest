@@ -1,0 +1,175 @@
+{"query_id": "78292bc57ee68fdb93ed45430d80acca25a9e916", "query": "How did they extend LAMA evaluation framework to focus on negation?"}
+{"query_id": "6b6d498546f856ac20958f666fc3fd55811347e2", "query": "What are the hyperparameters of the bi-GRU?"}
+{"query_id": "1d9aeeaa6efa1367c22be0718f5a5635a73844bd", "query": "What meaningful information does the GRU model capture, which traditional ML models do not?"}
+{"query_id": "559920ebe19e99e43418c2f0455a0ffdc8edaaa2", "query": "What is an unordered text document, do these arise in real-world corpora?"}
+{"query_id": "32a3c248b928d4066ce00bbb0053534ee62596e7", "query": "What is MSD prediction?"}
+{"query_id": "ce0e2a8675055a5468c4c54dbb099cfd743df8a7", "query": "What are 10 other phenotypes that are annotated?"}
+{"query_id": "de53af4eddbc30c808d90b8a11a29217d377569e", "query": "Which Facebook pages did they look at?"}
+{"query_id": "2c947447d81252397839d58c75ebcc71b34379b5", "query": "On what Text-Based Games are experiments performed?"}
+{"query_id": "c01784b995f6594fdb23d7b62f20a35ae73eaa77", "query": "How do the authors show that their learned policy generalize better than existing solutions to unseen games?"}
+{"query_id": "8d4ac4afbf5b14f412171729ceb5e822afcfa3f4", "query": "Do they build a model to automatically detect demographic, lingustic or psycological dimensons of people?"}
+{"query_id": "ee417fea65f9b1029455797671da0840c8c1abbe", "query": "Do they use off-the-shelf NLP systems to build their assitant?"}
+{"query_id": "da55bd769721b878dd17f07f124a37a0a165db02", "query": "What kind of repetitive and time-consuming activities does their assistant handle?"}
+{"query_id": "5c88d601e8fca96bffebfa9ef22331ecf31c6d75", "query": "Have they made any attempt to correct MRC gold standards according to their findings?"}
+{"query_id": "71bd5db79635d48a0730163a9f2e8ef19a86cd66", "query": "What features are absent from MRC gold standards that can result in potential lexical ambiguity?"}
+{"query_id": "a9337636b52de375c852682a2561af2c1db5ec63", "query": "Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?"}
+{"query_id": "45a5961a4e1d1c22874c4918e5c98bd3c0a670b3", "query": "How many question types do they find in the datasets analyzed?"}
+{"query_id": "6ecb69360449bb9915ac73c0a816c8ac479cbbfc", "query": "What modalities are supported by Macaw?"}
+{"query_id": "e4a315e9c190cf96493eefe04ce4ba6ae6894550", "query": "How does PolyResponse architecture look like?"}
+{"query_id": "0d34c0812f1e69ea33f76ca8c24c23b0415ebc8d", "query": "Which hand-crafted features are combined with word2vec?"}
+{"query_id": "c4628d965983934d7a2a9797a2de6a411629d5bc", "query": "Is the G-BERT model useful beyond the task considered?"}
+{"query_id": "c22394a3fb0dbf2fc7d3a70ad6435803f5a16ebd", "query": "What tasks did they use to evaluate performance for male and female speakers?"}
+{"query_id": "f85f2a532e7e700d9f8f9c09cd08d4e47b87bdd3", "query": "What is the goal of investigating NLP gender bias specifically in the news broadcast domain and Anchor role?"}
+{"query_id": "00c57e45ac6afbdfa67350a57e81b4fad0ed2885", "query": "Do they evaluate only on English datasets?"}
+{"query_id": "9cf070d6671ee4a6353f79a165aa648309e01295", "query": "What is the size of the parallel corpus used to train the model constraints?"}
+{"query_id": "87bc6f83f7f90df3c6c37659139b92657c3f7a38", "query": "How does enforcing agreement between parse trees work across different languages?"}
+{"query_id": "ef3567ce7301b28e34377e7b62c4ec9b496f00bf", "query": "What Named Entity Recognition dataset is used?"}
+{"query_id": "6b9b9e5d154cb963f6d921093539490daa5ebbae", "query": "What novel PMI variants are introduced?"}
+{"query_id": "70e9210fe64f8d71334e5107732d764332a81cb1", "query": "what is the state of the art on WSJ?"}
+{"query_id": "ed6a15f0f7fa4594e51d5bde21cc0c6c1bedbfdc", "query": "For how many probe tasks the shallow-syntax-aware contextual embedding perform better than ELMo\u2019s embedding?"}
+{"query_id": "86bf75245358f17e35fc133e46a92439ac86d472", "query": "What are improvements for these two approaches relative to ELMo-only baselines?"}
+{"query_id": "a616a3f0d244368ec588f04dfbc37d77fda01b4c", "query": "What are the 12 languages covered?"}
+{"query_id": "4bc2784be43d599000cb71d31928908250d4cef3", "query": "What is the GhostVLAD approach?"}
+{"query_id": "b6ae8e10c6a0d34c834f18f66ab730b670fb528c", "query": "what are the topics pulled from Reddit?"}
+{"query_id": "72e4e26d0dd79c590c28b10938952a9f9497ff1e", "query": "What models are used for painting embedding and what for language style transfer?"}
+{"query_id": "f71b52e00e0be80c926f153b9fe0a06dd93af11e", "query": "How does final model rate on Likert scale?"}
+{"query_id": "54e945ea4b014e11ed4e1e61abc2aa9e68fea310", "query": "What is best BLEU score of language style transfer authors got?"}
+{"query_id": "6a633811019e9323dc8549ad540550d27aa6d972", "query": "Is it valid to presume a bad medical wikipedia article should not contain much domain-specific jargon?"}
+{"query_id": "15e481e668114e4afe0c78eefb716ffe1646b494", "query": "What alternative to Gibbs sampling is used?"}
+{"query_id": "ef7212075e80bf35b7889dc8dd52fcbae0d1400a", "query": "Why are current ELS's not sufficiently effective?"}
+{"query_id": "b5bc34e1e381dbf972d0b594fe8c66ff75305d71", "query": "What are method's improvements of F1 for NER task for English and Chinese datasets?"}
+{"query_id": "72f7ef55e150e16dcf97fe443aff9971a32414ef", "query": "What are method's improvements of F1 w.r.t. baseline BERT tagger for Chinese POS datasets?"}
+{"query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c", "query": "What does KBQA abbreviate for"}
+{"query_id": "c0e341c4d2253eb42c8840381b082aae274eddad", "query": "What is te core component for KBQA?"}
+{"query_id": "fc4ae12576ea3a85ea6d150b46938890d63a7d18", "query": "Is the LSTM baseline a sub-word model?"}
+{"query_id": "b6f466e0fdcb310ecd212fd90396d9d13e0c0504", "query": "Do they introduce errors in the data or does the data already contain them?"}
+{"query_id": "6236762b5631d9e395f81e1ebccc4bf3ab9b24ac", "query": "Do they show on which examples how conflict works better than attention?"}
+{"query_id": "31d695ba855d821d3e5cdb7bea638c7dbb7c87c7", "query": "Which neural architecture do they use as a base for their attention conflict mechanisms?"}
+{"query_id": "c6a0b9b5dabcefda0233320dd1548518a0ae758e", "query": "Which approach out of two proposed in the paper performed better in experiments?"}
+{"query_id": "cf874cd9023d901e10aa8664b813d32501e7e4d2", "query": "What is NER?"}
+{"query_id": "43eecc576348411b0634611c81589f618cd4fddf", "query": "What GAN models were used as baselines to compare against?"}
+{"query_id": "a778b8204a415b295f73b93623d09599f242f202", "query": "What is the Random Kitchen Sink approach?"}
+{"query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6", "query": "Do they report results only on English data?"}
+{"query_id": "6411622cc8b2fbedbfa468859d453596d3bd2f03", "query": "What objective function is used in the GAN?"}
+{"query_id": "a29c071065d26e5ee3c3bcd877e7f215c59d1d33", "query": "What metrics are used for the STS tasks?"}
+{"query_id": "c497e8701060583d91bb64b9f9202d40047effc4", "query": "How do they determine if tweets have been used by journalists?"}
+{"query_id": "b85fc420eb2f77f6f14f375cc1fcc5155eb5c0a8", "query": "Does the paper clearly establish that the challenges listed here exist in this dataset and task?"}
+{"query_id": "792f6d76d2befba2af07198584aac1b189583ae4", "query": "Is this hashtag prediction task an established task, or something new?"}
+{"query_id": "fe1dcd6ef1f8618bbceee418f07cafe63a8efe08", "query": "What is the language model combination technique used in the paper?"}
+{"query_id": "f9aa055bf73185ba939dfb03454384810eb17ad1", "query": "How much training data from the non-English language is used by the system?"}
+{"query_id": "d98847340e46ffe381992f1a594e75d3fb8d385e", "query": "What machine learning and deep learning methods are used for RQE?"}
+{"query_id": "051df74dc643498e95d16e58851701628fdfd43e", "query": "How did they obtain the OSG dataset?"}
+{"query_id": "33554065284110859a8ea3ca7346474ab2cab100", "query": "How large is the Twitter dataset?"}
+{"query_id": "897ba53ef44f658c128125edd26abf605060fb13", "query": "Do they test their framework performance on commonly used language pairs, such as English-to-German?"}
+{"query_id": "cc850bc8245a7ae790e1f59014371d4f35cd46d7", "query": "How do they determine the exact section to use the input article?"}
+{"query_id": "984fc3e726848f8f13dfe72b89e3770d00c3a1af", "query": "What features are used to represent the novelty of news articles to entity pages?"}
+{"query_id": "9ec1f88ceec84a10dc070ba70e90a792fba8ce71", "query": "What was their highest MRR score?"}
+{"query_id": "111afb77cfbf4c98e0458606378fa63a0e965e36", "query": "Overall, does having parallel data improve semantic role induction across multiple languages?"}
+{"query_id": "6568a31241167f618ef5ede939053feaa2fb0d7e", "query": "Do they add one latent variable for each language pair in their Bayesian model?"}
+{"query_id": "d41e20ec716b5904a272938e5a8f5f3f15a7779e", "query": "How do they identify discussions of LGBTQ people in the New York Times?"}
+{"query_id": "dc2a2c177cd5df6da5d03e6e74262bf424850ec9", "query": "How is the political bias of different sources included in the model?"}
+{"query_id": "28067da818e3f61f8b5152c0d42a531bf0f987d4", "query": "Ngrams of which length are aligned using PARENT?"}
+{"query_id": "37861be6aecd9242c4fdccdfcd06e48f3f1f8f81", "query": "On how many language pairs do they show that preordering assisting language sentences helps translation quality?"}
+{"query_id": "1097768b89f8bd28d6ef6443c94feb04c1a1318e", "query": "Do the methods that work best on academic papers also work best on Wikipedia?"}
+{"query_id": "d67c01d9b689c052045f3de1b0918bab18c3f174", "query": "How large are the improvements of the Attention-Sum Reader model when using the BookTest dataset?"}
+{"query_id": "d28d86524292506d4b24ae2d486725a6d57a3db3", "query": "What is the ROUGE score of the highest performing model?"}
+{"query_id": "06b5272774ec43ee5facfa7111033386f06cf448", "query": "Is an instance a sentence or an IE tuple?"}
+{"query_id": "483a699563efcb8804e1861b18809279f21c7610", "query": "Was the approach used in this work to detect fake news fully supervised?"}
+{"query_id": "d3ff2986ca8cb85a9a5cec039c266df756947b43", "query": "Based on this paper, what is the more predictive set of features to detect fake news?"}
+{"query_id": "7ab9c0b4ceca1c142ff068f85015a249b14282d0", "query": "Do they incoprorate WordNet into the model?"}
+{"query_id": "f0b1d8c0a44dbe8d444a5dbe2d9c3d51e048a6f6", "query": "How big is the difference in performance between proposed model and baselines?"}
+{"query_id": "3415762847ed13acc3c90de60e3ef42612bc49af", "query": "How much is classification performance improved in experiments for low data regime and class-imbalance problems?"}
+{"query_id": "223dc2b9ea34addc0f502003c2e1c1141f6b36a7", "query": "What off-the-shelf reward learning algorithm from RL for joint data manipulation learning and model training is adapted?"}
+{"query_id": "4ac2c3c259024d7cd8e449600b499f93332dab60", "query": "Do they report results only on English data?"}
+{"query_id": "664db503509b8236bc4d3dc39cebb74498365750", "query": "What is quantitative improvement of proposed method (the best variant) w.r.t. baseline (the best variant)?"}
+{"query_id": "021bfb7e180d67112b74f05ecb3fa13acc036c86", "query": "How is the vocabulary of word-like or phoneme-like units automatically discovered?"}
+{"query_id": "5eabfc6cc8aa8a99e6e42514ef9584569cb75dec", "query": "Do they evaluate only on English datasets?"}
+{"query_id": "27dbbd63c86d6ca82f251d4f2f030ed3e88f58fa", "query": "what NMT models did they compare with?"}
+{"query_id": "b9d07757e2d2c4be41823dd1ea3b9c7f115b5f72", "query": "Where does the ancient Chinese dataset come from?"}
+{"query_id": "c8541ff10c4e0c8e9eb37d9d7ea408d1914019a9", "query": "Which datasets are employed for South African languages LID?"}
+{"query_id": "b637d6393ef3af7462917b81861531022b291933", "query": "Does jiant involve datasets for the 50 NLU tasks?"}
+{"query_id": "92d1a6df3041667dc662376938bc65527a5a1c3c", "query": "Do they report results only on English datasets?"}
+{"query_id": "a4a1fcef760b133e9aa876ac28145ad98a609927", "query": "Which other hyperparameters, other than number of clusters are typically evaluated in this type of research?"}
+{"query_id": "da9c0637623885afaf023a319beee87898948fe9", "query": "Does the dataset feature only English language data?"}
+{"query_id": "4907096cf16d506937e592c50ae63b642da49052", "query": "What examples of the difficulties presented by the context-dependent nature of online aggression do they authors give?"}
+{"query_id": "5bb3c27606c59d73fd6944ba7382096de4fa58d8", "query": "Do they focus on Reading Comprehension or multiple choice question answering?"}
+{"query_id": "75ff6e425ce304a35f18c0230c0d13d3913a31a9", "query": "Is WordNet useful for taxonomic reasoning for this task?"}
+{"query_id": "8e44c02c2d9fa56fb74ace35ee70a5add50b52ae", "query": "Does the corpus contain only English documents?"}
+{"query_id": "e9cfbfdf30e48cffdeca58d4ac6fdd66a8b27d7a", "query": "How were crowd workers instructed to identify important elements in large document collections?"}
+{"query_id": "8b0abc1907c2bf3e0256f8cf85e0ba66a839bd92", "query": "Were any of the pipeline components based on deep learning models?"}
+{"query_id": "b249b60a8c94d0e40d65f1ffdfcac527dab57516", "query": "Do the hashtag and SemEval datasets contain only English data?"}
+{"query_id": "0f567251a6566f65170a1329eeeb5105932036b2", "query": "What current state of the art method was used for comparison?"}
+{"query_id": "9bb7ae50bff91571a945c1af025ed2e67714a788", "query": "What was the previous state of the art for this task?"}
+{"query_id": "81dbe9a9ddaa5d02b02e01a306d898015a56ffb6", "query": "What type of latent context is used to predict instructor intervention?"}
+{"query_id": "8748e8f64af57560d124c7b518b853bf2711c13e", "query": "Do they report results only on English data?"}
+{"query_id": "893ec40b678a72760b6802f6abf73b8f487ae639", "query": "What evidence do the authors present that the model can capture some biases in data annotation and collection?"}
+{"query_id": "d4db7df65aa4ece63e1de813e5ce98ce1b4dbe7f", "query": "How do profile changes vary for influential leads and their followers over the social movement?"}
+{"query_id": "f03112b868b658c954db62fc64430bebbaa7d9e0", "query": "Do they use other evaluation metrics besides ROUGE?"}
+{"query_id": "981fd79dd69581659cb1d4e2b29178e82681eb4d", "query": "What is the difference of the proposed model with a standard RNN encoder-decoder?"}
+{"query_id": "03e9ac1a2d90152cd041342a11293a1ebd33bcc3", "query": "Does the model evaluated on NLG datasets or dialog datasets?"}
+{"query_id": "b08f88d1facefceb87e134ba2c1fa90035018e83", "query": "Do the decoder LSTMs all have the same weights?"}
+{"query_id": "603fee7314fa65261812157ddfc2c544277fcf90", "query": "How larger are the training sets of these versions of ELMo compared to the previous ones?"}
+{"query_id": "adbf33c6144b2f5c40d0c6a328a92687a476f371", "query": "Does their NER model learn NER from both text and images?"}
+{"query_id": "1591068b747c94f45b948e12edafe74b5e721047", "query": "How large is their MNER SnapCaptions dataset?"}
+{"query_id": "a712718e6596ba946f29a99838d82f95b9ebb1ce", "query": "How big are improvements of small-scale unbalanced datasets when sentence representation is enhanced with topic information?"}
+{"query_id": "c49ee6ac4dc812ff84d255886fd5aff794f53c39", "query": "Do the authors report results only on English data?"}
+{"query_id": "74e866137b3452ec50fb6feaf5753c8637459e62", "query": "What manual Pyramid scores are used?"}
+{"query_id": "184b0082e10ce191940c1d24785b631828a9f714", "query": "What is the common belief that this paper refutes? (c.f. 'contrary to the common belief, ROUGE is not much [sic] reliable'"}
+{"query_id": "88bf368491f9613767f696f84b4bb1f5a7d7cb48", "query": "Does the professional translation or the machine translation introduce the artifacts?"}
+{"query_id": "d087539e6a38c42f0a521ff2173ef42c0733878e", "query": "Why are prior knowledge distillation techniques models are ineffective in producing student models with vocabularies different from the original teacher models?"}
+{"query_id": "bdc91d1283a82226aeeb7a2f79dbbc57d3e84a1a", "query": "How much is performance improved on NLI?"}
+{"query_id": "bc31a3d2f7c608df8c019a64d64cb0ccc5669210", "query": "What BERT model do they test?"}
+{"query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62", "query": "Along which dimension do the semantically related words take larger values?"}
+{"query_id": "114934e1a1e818630ff33ac5c4cd4be6c6f75bb2", "query": "How effective is their NCEL approach overall?"}
+{"query_id": "b8d0e4e0e820753ffc107c1847fe1dfd48883989", "query": "Do they only use adjacent entity mentions or use more than that in some cases (next to adjacent)?"}
+{"query_id": "660284b0a21fe3801e64dc9e0e51da5400223fe3", "query": "How does this approach compare to other WSD approaches employing word embeddings?"}
+{"query_id": "8dc707a0daf7bff61a97d9d854283e65c0c85064", "query": "Is Arabic one of the 11 languages in CoVost?"}
+{"query_id": "a8f51b4e334a917702422782329d97304a2fe139", "query": "What is the threshold for determining that a tweet has gone viral?"}
+{"query_id": "aef607d2ac46024be17b1ddd0ed3f13378c563a6", "query": "How do they measure which words are under-translated by NMT models?"}
+{"query_id": "6c91d44d5334a4ac80100eead4e105d34e99a284", "query": "Which model architectures do they test their word importance approach on?"}
+{"query_id": "a7d020120a45c39bee624f65443e09b895c10533", "query": "In what way does LiLi imitate how humans acquire knowledge and perform inference during an interactive conversation?"}
+{"query_id": "ee7e9a948ee6888aa5830b1a3d0d148ff656d864", "query": "What is the size of the Airbnb?"}
+{"query_id": "cd06d775f491b4a17c9d616a8729fd45aa2e79bf", "query": "Which sentiment class is the most accurately predicted by ELS systems?"}
+{"query_id": "50cb50657572e315fd452a89f3e0be465094b66f", "query": "Do they experiment with their proposed model on any other dataset other than MovieQA?"}
+{"query_id": "22744c3bc68f120669fc69490f8e539b09e34b94", "query": "Can the findings of this paper be generalized to a general-purpose task?"}
+{"query_id": "dcea88698949da4a1bd00277c06df06c33f6a5ff", "query": "Why does the proposed task a good proxy for the general-purpose sequence to sequence tasks?"}
+{"query_id": "2ea4347f1992b0b3958c4844681ff0fe4d0dd1dd", "query": "What neural network modules are included in NeuronBlocks?"}
+{"query_id": "4f253dfced6a749bf57a1b4984dc962ce9550184", "query": "How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?"}
+{"query_id": "d004ca2e999940ac5c1576046e30efa3059832fa", "query": "What are the different variations of the attention-based approach which are examined?"}
+{"query_id": "2cd37743bcc7ea3bd405ce6d91e79e5339d7642e", "query": "Do they report results only on English data?"}
+{"query_id": "eac9dae3492e17bc49c842fb566f464ff18c049b", "query": "What argument components do the ML methods aim to identify?"}
+{"query_id": "d6401cece55a14d2a35ba797a0878dfe2deabedc", "query": "What challenges do different registers and domains pose to this task?"}
+{"query_id": "f59f1f5b528a2eec5cfb1e49c87699e0c536cc45", "query": "How big is the new Nepali NER dataset?"}
+{"query_id": "6d1217b3d9cfb04be7fcd2238666fa02855ce9c5", "query": "Which models are used to solve NER for Nepali?"}
+{"query_id": "e0122fc7b0143d5cbcda2120be87a012fb987627", "query": "By how much does their model outperform the state of the art results?"}
+{"query_id": "5da26954fbcd3cf6a7dba9f8b3c9a4b0391f67d4", "query": "How do they combine audio and text sequences in their RNN?"}
+{"query_id": "709feae853ec0362d4e883db8af41620da0677fe", "query": "How does Gaussian-masked directional multi-head attention works?"}
+{"query_id": "ecc63972b2783ee39b3e522653cfb6dc5917d522", "query": "How do they encourage understanding of literature as part of their objective function?"}
+{"query_id": "dac087e1328e65ca08f66d8b5307d6624bf3943f", "query": "LDA is an unsupervised method; is this paper introducing an unsupervised approach to spam detection?"}
+{"query_id": "bd40f33452da7711b65faaa248aca359b27fddb6", "query": "What was the performance of multilingual BERT?"}
+{"query_id": "220d11a03897d85af91ec88a9b502815c7d2b6f3", "query": "Why is lemmatization not necessary in English?"}
+{"query_id": "d509081673f5667060400eb325a8050fa5db7cc8", "query": "How big was the corpora they trained ELMo on?"}
+{"query_id": "8d074aabf4f51c8455618c5bf7689d3f62c4da1d", "query": "What are the limitations of existing Vietnamese word segmentation systems?"}
+{"query_id": "70a1b0f9f26f1b82c14783f1b76dfb5400444aa4", "query": "How successful are the approaches used to solve word segmentation in Vietnamese?"}
+{"query_id": "45f7c03a686b68179cadb1413c5f3c1d373328bd", "query": "What is the CORD-19 dataset?"}
+{"query_id": "a2015f02dfb376bf9b218d1c897018f4e70424d7", "query": "How large is the collection of COVID-19 literature?"}
+{"query_id": "6aaf12505add25dd133c7b0dafe8f4fe966d1f1d", "query": "what previous RNN models do they compare with?"}
+{"query_id": "76121e359dfe3f16c2a352bd35f28005f2a40da3", "query": "What NLP tasks do they consider?"}
+{"query_id": "70148c8d0f345ea36200d5ba19d021924d98e759", "query": "What is the McGurk effect?"}
+{"query_id": "9c33b340aefbc1f15b6eb6fb3e23ee615ce5b570", "query": "How was the spatial aspect of the EEG signal computed?"}
+{"query_id": "e6583c60b13b87fc37af75ffc975e7e316d4f4e0", "query": "What data was presented to the subjects to elicit event-related responses?"}
+{"query_id": "f9f59c171531c452bd2767dc332dc74cadee5120", "query": "How many subjects does the EEG data come from?"}
+{"query_id": "fff5c24dca92bc7d5435a2600e6764f039551787", "query": "How was the StackExchange dataset collected?"}
+{"query_id": "b68f72aed961d5ba152e9dc50345e1e832196a76", "query": "by how much did the BLEU score improve?"}
+{"query_id": "05887a8466e0a2f0df4d6a5ffc5815acd7d9066a", "query": "Which SVM approach resulted in the best performance?"}
+{"query_id": "aa7d327ef98f9f9847b447d4def04889b4508d7a", "query": "How much data samples do they start with before obtaining the initial model labels?"}
+{"query_id": "40c0f97c3547232d6aa039fcb330f142668dea4b", "query": "Do they evaluate on English only datasets?"}
+{"query_id": "de830c534c23f103288c198eb19174c76bfd38a1", "query": "Which words are used differently across ArXiv?"}
+{"query_id": "348886b4762db063711ef8b7a10952375fbdcb57", "query": "Do they report results only on English dataset?"}
+{"query_id": "1ed49a8c07ef0ac15cfa6b7decbde6604decbd5b", "query": "What dataset does this approach achieve state of the art results on?"}
+{"query_id": "2c85865a65acd429508f50b5e4db9674813d67f2", "query": "Which data do they use as a starting point for the dialogue dataset?"}
+{"query_id": "2ccc26e11df4eb26fcccdd1f446dc749aff5d572", "query": "Do they report results only on English data?"}
+{"query_id": "518dae6f936882152c162058895db4eca815e649", "query": "How many layers does the UTCNN model have?"}
+{"query_id": "0f12dc077fe8e5b95ca9163cea1dd17195c96929", "query": "What criteria are used to select the 8,640 English sentences?"}
+{"query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98", "query": "What are the weaknesses found by non-expert annotators of current state-of-the-art NLI models?"}
+{"query_id": "59e58c6fc63cf5b54b632462465bfbd85b1bf3dd", "query": "In what way is the offensive dataset not biased by topic, dialect or target?"}

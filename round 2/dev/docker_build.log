@@ -1,0 +1,257 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 808B 0.0s done
+#1 DONE 0.2s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 4.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 157B 0.0s done
+#3 DONE 0.1s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/7] FROM docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377
+#5 resolve docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377
+#5 resolve docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377 0.0s done
+#5 ...
+
+#4 [internal] load build context
+#4 transferring context: 24.67kB 0.1s done
+#4 DONE 0.1s
+
+#5 [1/7] FROM docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377
+#5 sha256:b0aec4a98ced1e92f1d50c37aa89c78d60e3dc6a52d61f8134afda24b185ad06 0B / 249B 0.2s
+#5 sha256:b0aec4a98ced1e92f1d50c37aa89c78d60e3dc6a52d61f8134afda24b185ad06 249B / 249B 0.3s done
+#5 sha256:90d47cf54851a8d83f33db71f0025a8ba367c12fb24817259dd9736098cb305b 0B / 1.29MB 0.2s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 0B / 14.46MB 0.2s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 0B / 29.84MB 0.2s
+#5 sha256:90d47cf54851a8d83f33db71f0025a8ba367c12fb24817259dd9736098cb305b 1.05MB / 1.29MB 0.9s
+#5 sha256:90d47cf54851a8d83f33db71f0025a8ba367c12fb24817259dd9736098cb305b 1.29MB / 1.29MB 1.0s done
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 2.10MB / 29.84MB 1.4s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 4.19MB / 29.84MB 2.0s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 1.05MB / 14.46MB 2.3s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 6.29MB / 29.84MB 2.4s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 2.10MB / 14.46MB 2.9s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 3.15MB / 14.46MB 3.3s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 8.39MB / 29.84MB 3.2s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 4.19MB / 14.46MB 3.9s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 10.49MB / 29.84MB 3.9s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 5.24MB / 14.46MB 4.8s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 12.58MB / 29.84MB 5.1s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 6.29MB / 14.46MB 5.9s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 14.68MB / 29.84MB 5.9s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 7.34MB / 14.46MB 6.6s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 16.78MB / 29.84MB 6.5s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 18.87MB / 29.84MB 6.9s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 8.39MB / 14.46MB 7.3s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 20.97MB / 29.84MB 7.3s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 9.44MB / 14.46MB 7.9s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 23.07MB / 29.84MB 7.8s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 10.49MB / 14.46MB 8.8s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 25.17MB / 29.84MB 8.7s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 27.26MB / 29.84MB 9.3s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 11.53MB / 14.46MB 9.9s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 29.36MB / 29.84MB 10.3s
+#5 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 29.84MB / 29.84MB 10.7s done
+#5 extracting sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 12.58MB / 14.46MB 10.9s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 13.63MB / 14.46MB 11.7s
+#5 sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 14.46MB / 14.46MB 11.8s done
+#5 extracting sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 1.8s done
+#5 DONE 12.7s
+
+#5 [1/7] FROM docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377
+#5 extracting sha256:90d47cf54851a8d83f33db71f0025a8ba367c12fb24817259dd9736098cb305b
+#5 extracting sha256:90d47cf54851a8d83f33db71f0025a8ba367c12fb24817259dd9736098cb305b 0.2s done
+#5 DONE 12.9s
+
+#5 [1/7] FROM docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377
+#5 extracting sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128
+#5 extracting sha256:6d9af71a343efe2a00fdfc9507db3bdf3530bf3f8cf2975eb1be235a7eb70128 1.0s done
+#5 DONE 13.9s
+
+#5 [1/7] FROM docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377
+#5 extracting sha256:b0aec4a98ced1e92f1d50c37aa89c78d60e3dc6a52d61f8134afda24b185ad06 0.0s done
+#5 DONE 13.9s
+
+#6 [2/7] RUN useradd -m -u 1000 runner
+#6 DONE 1.1s
+
+#7 [3/7] WORKDIR /app
+#7 DONE 0.1s
+
+#8 [4/7] COPY requirements.server.txt requirements.txt ./
+#8 DONE 0.1s
+
+#9 [5/7] RUN pip install --no-cache-dir -r requirements.server.txt -r requirements.txt
+#9 3.134 Collecting fastapi==0.142.2 (from -r requirements.server.txt (line 1))
+#9 3.372   Downloading fastapi-0.142.2-py3-none-any.whl.metadata (27 kB)
+#9 3.507 Collecting uvicorn==0.54.0 (from -r requirements.server.txt (line 2))
+#9 3.535   Downloading uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+#9 4.262 Collecting numpy==2.1.3 (from -r requirements.txt (line 1))
+#9 4.289   Downloading numpy-2.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+#9 4.342      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 1.1 MB/s eta 0:00:00
+#9 4.686 Collecting onnxruntime==1.20.1 (from -r requirements.txt (line 2))
+#9 4.724   Downloading onnxruntime-1.20.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (4.5 kB)
+#9 5.559 Collecting tokenizers==0.21.0 (from -r requirements.txt (line 3))
+#9 5.580   Downloading tokenizers-0.21.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+#9 5.676 Collecting PyStemmer==2.2.0.3 (from -r requirements.txt (line 4))
+#9 5.693   Downloading PyStemmer-2.2.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.2 kB)
+#9 5.819 Collecting starlette>=0.46.0 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 5.841   Downloading starlette-1.9.0-py3-none-any.whl.metadata (6.6 kB)
+#9 6.290 Collecting pydantic>=2.9.0 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 6.309   Downloading pydantic-2.14.1-py3-none-any.whl.metadata (133 kB)
+#9 6.368      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.0/133.0 kB 2.3 MB/s eta 0:00:00
+#9 6.482 Collecting typing-extensions>=4.8.0 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 6.533   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#9 6.568 Collecting typing-inspection>=0.4.2 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 6.614   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+#9 6.722 Collecting annotated-doc>=0.0.2 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 6.741   Downloading annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+#9 6.830 Collecting opentelemetry-api>=1.44.0 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 6.849   Downloading opentelemetry_api-1.45.1-py3-none-any.whl.metadata (1.4 kB)
+#9 6.943 Collecting click>=7.0 (from uvicorn==0.54.0->-r requirements.server.txt (line 2))
+#9 6.975   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+#9 7.001 Collecting h11>=0.8 (from uvicorn==0.54.0->-r requirements.server.txt (line 2))
+#9 7.032   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+#9 7.113 Collecting coloredlogs (from onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 7.132   Downloading coloredlogs-15.0.1-py2.py3-none-any.whl.metadata (12 kB)
+#9 7.185 Collecting flatbuffers (from onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 7.217   Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+#9 7.226 Requirement already satisfied: packaging in /usr/local/lib/python3.11/site-packages (from onnxruntime==1.20.1->-r requirements.txt (line 2)) (26.3)
+#9 7.751 Collecting protobuf (from onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 7.813   Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+#9 7.925 Collecting sympy (from onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 7.966   Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+#9 8.188 Collecting huggingface-hub<1.0,>=0.16.4 (from tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 8.205   Downloading huggingface_hub-0.36.2-py3-none-any.whl.metadata (15 kB)
+#9 8.560 Collecting filelock (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 8.609   Downloading filelock-4.2.4-py3-none-any.whl.metadata (2.0 kB)
+#9 8.676 Collecting fsspec>=2023.5.0 (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 8.697   Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+#9 8.865 Collecting hf-xet<2.0.0,>=1.1.3 (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 8.930   Downloading hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+#9 9.085 Collecting pyyaml>=5.1 (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 9.125   Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+#9 9.214 Collecting requests (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 9.244   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#9 9.369 Collecting tqdm>=4.42.1 (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 9.390   Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+#9 9.427      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.4/57.4 kB 1.7 MB/s eta 0:00:00
+#9 9.501 Collecting annotated-types>=0.6.0 (from pydantic>=2.9.0->fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 9.528   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+#9 12.30 Collecting pydantic-core==2.50.1 (from pydantic>=2.9.0->fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 12.33   Downloading pydantic_core-2.50.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.5 kB)
+#9 12.42 Collecting anyio<5,>=4.0.0 (from starlette>=0.46.0->fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 12.49   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+#9 12.60 Collecting humanfriendly>=9.1 (from coloredlogs->onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 12.63   Downloading humanfriendly-10.0-py2.py3-none-any.whl.metadata (9.2 kB)
+#9 12.70 Collecting mpmath<1.4,>=1.1.0 (from sympy->onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 13.00   Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+#9 13.08 Collecting idna>=2.8 (from anyio<5,>=4.0.0->starlette>=0.46.0->fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 13.11   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#9 13.71 Collecting charset_normalizer<4,>=2 (from requests->huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 13.73   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+#9 13.79      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 712.7 kB/s eta 0:00:00
+#9 13.89 Collecting urllib3<3,>=1.26 (from requests->huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 13.91   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+#9 14.00 Collecting certifi>=2023.5.7 (from requests->huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 14.02   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+#9 14.08 Downloading fastapi-0.142.2-py3-none-any.whl (144 kB)
+#9 14.11    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 144.4/144.4 kB 5.0 MB/s eta 0:00:00
+#9 14.14 Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+#9 14.16    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.4/87.4 kB 6.3 MB/s eta 0:00:00
+#9 14.20 Downloading numpy-2.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.3 MB)
+#9 25.92    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.3/16.3 MB 1.2 MB/s eta 0:00:00
+#9 25.94 Downloading onnxruntime-1.20.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (13.3 MB)
+#9 36.02    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 1.2 MB/s eta 0:00:00
+#9 36.04 Downloading tokenizers-0.21.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+#9 38.49    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 1.2 MB/s eta 0:00:00
+#9 38.51 Downloading PyStemmer-2.2.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (669 kB)
+#9 39.04    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 669.3/669.3 kB 1.4 MB/s eta 0:00:00
+#9 39.08 Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+#9 39.10 Downloading click-8.5.0-py3-none-any.whl (125 kB)
+#9 39.21    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.3/125.3 kB 1.2 MB/s eta 0:00:00
+#9 39.22 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#9 39.27 Downloading huggingface_hub-0.36.2-py3-none-any.whl (566 kB)
+#9 39.59    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 1.8 MB/s eta 0:00:00
+#9 39.60 Downloading opentelemetry_api-1.45.1-py3-none-any.whl (60 kB)
+#9 39.66    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.3/60.3 kB 1.0 MB/s eta 0:00:00
+#9 39.67 Downloading pydantic-2.14.1-py3-none-any.whl (488 kB)
+#9 40.02    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 488.1/488.1 kB 1.4 MB/s eta 0:00:00
+#9 40.04 Downloading pydantic_core-2.50.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.2 MB)
+#9 41.64    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 1.3 MB/s eta 0:00:00
+#9 41.66 Downloading starlette-1.9.0-py3-none-any.whl (80 kB)
+#9 41.81    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.3/80.3 kB 494.1 kB/s eta 0:00:00
+#9 41.84 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#9 41.95    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 579.1 kB/s eta 0:00:00
+#9 41.97 Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+#9 42.15 Downloading coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+#9 42.21    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.0/46.0 kB 682.7 kB/s eta 0:00:00
+#9 42.23 Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+#9 42.32 Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+#9 42.94    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 581.3 kB/s eta 0:00:00
+#9 42.96 Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+#9 47.51    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 1.4 MB/s eta 0:00:00
+#9 47.53 Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+#9 47.62 Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+#9 47.80    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.1/132.1 kB 816.7 kB/s eta 0:00:00
+#9 47.82 Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+#9 48.16    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 221.7/221.7 kB 758.9 kB/s eta 0:00:00
+#9 48.19 Downloading hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+#9 51.63    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 1.2 MB/s eta 0:00:00
+#9 51.65 Downloading humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+#9 51.77    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 kB 836.5 kB/s eta 0:00:00
+#9 51.82 Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+#9 52.28    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 1.1 MB/s eta 0:00:00
+#9 52.30 Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+#9 53.27    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.6/806.6 kB 829.7 kB/s eta 0:00:00
+#9 53.29 Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+#9 53.44    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.2/80.2 kB 517.0 kB/s eta 0:00:00
+#9 53.49 Downloading filelock-4.2.4-py3-none-any.whl (162 kB)
+#9 53.71    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.5/162.5 kB 704.6 kB/s eta 0:00:00
+#9 53.75 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#9 53.84    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 785.8 kB/s eta 0:00:00
+#9 53.89 Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+#9 53.99    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.1/135.1 kB 1.5 MB/s eta 0:00:00
+#9 54.01 Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+#9 54.23    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 270.0/270.0 kB 1.2 MB/s eta 0:00:00
+#9 54.29 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#9 54.34    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 1.4 MB/s eta 0:00:00
+#9 54.36 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+#9 54.50    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.7/135.7 kB 998.0 kB/s eta 0:00:00
+#9 55.06 Installing collected packages: PyStemmer, mpmath, flatbuffers, urllib3, typing-extensions, tqdm, sympy, pyyaml, protobuf, numpy, idna, humanfriendly, hf-xet, h11, fsspec, filelock, click, charset_normalizer, certifi, annotated-types, annotated-doc, uvicorn, typing-inspection, requests, pydantic-core, opentelemetry-api, coloredlogs, anyio, starlette, pydantic, onnxruntime, huggingface-hub, tokenizers, fastapi
+#9 73.55 Successfully installed PyStemmer-2.2.0.3 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.15.1 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.5.0 coloredlogs-15.0.1 fastapi-0.142.2 filelock-4.2.4 flatbuffers-25.12.19 fsspec-2026.9.0 h11-0.16.0 hf-xet-1.7.0 huggingface-hub-0.36.2 humanfriendly-10.0 idna-3.20 mpmath-1.3.0 numpy-2.1.3 onnxruntime-1.20.1 opentelemetry-api-1.45.1 protobuf-7.36.2 pydantic-2.14.1 pydantic-core-2.50.1 pyyaml-6.0.3 requests-2.34.2 starlette-1.9.0 sympy-1.14.0 tokenizers-0.21.0 tqdm-4.70.1 typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-2.8.0 uvicorn-0.54.0
+#9 73.55 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#9 73.82 
+#9 73.82 [notice] A new release of pip is available: 24.0 -> 26.2.2
+#9 73.82 [notice] To update, run: pip install --upgrade pip
+#9 DONE 75.1s
+
+#10 [6/7] COPY . .
+#10 DONE 0.1s
+
+#11 [7/7] RUN mkdir -p /opt/cache && python prefetch.py && chmod -R a+rX /opt/cache
+#11 90.14 [prefetch] snowflake-arctic-embed-m-v1.5/onnx/model_int8.onnx (105 MiB) in 43s from https://huggingface.co
+#11 90.14 [prefetch] snowflake-arctic-embed-m-v1.5/tokenizer.json (0 MiB) in 1s from https://huggingface.co
+#11 90.14 [prefetch] gte-reranker-modernbert-base/onnx/model_int8.onnx (143 MiB) in 44s from https://huggingface.co
+#11 90.14 [prefetch] gte-reranker-modernbert-base/tokenizer.json (3 MiB) in 2s from https://huggingface.co
+#11 DONE 90.2s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 14.7s done
+#12 exporting manifest sha256:fe28112e31b220432dd8824c4a70a417fc23603cc4e46caf5e8b8cf9246fa113 0.0s done
+#12 exporting config sha256:999455ad3be249de6d888abdec185381fe3425461e8067099abdecb4ba20c893 0.0s done
+#12 exporting attestation manifest sha256:61bf581eb6d10832b5b2ec4c924ae5da80407bf4ac8a87493f8fd6efd8f18f07 0.0s done
+#12 exporting manifest list sha256:e60b3e312ceae91d7c6c936ab1ce3e0724982691db4c4c71867cddd9d1da54b3 0.0s done
+#12 naming to docker.io/library/dataquest-local:latest
+#12 naming to docker.io/library/dataquest-local:latest done
+#12 unpacking to docker.io/library/dataquest-local:latest
+#12 unpacking to docker.io/library/dataquest-local:latest 6.3s done
+#12 DONE 21.2s

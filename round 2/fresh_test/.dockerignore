@@ -1,0 +1,10 @@
+sample_data/
+local_eval.py
+make_submission.py
+eval_log.json
+submission.zip
+.git
+.gitignore
+__pycache__/
+*.pyc
+.venv/

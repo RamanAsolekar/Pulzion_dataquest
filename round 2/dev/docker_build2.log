@@ -1,0 +1,57 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 808B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 1.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 157B done
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377
+#4 resolve docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 17.53kB done
+#5 DONE 0.0s
+
+#6 [2/7] RUN useradd -m -u 1000 runner
+#6 CACHED
+
+#7 [3/7] WORKDIR /app
+#7 CACHED
+
+#8 [4/7] COPY requirements.server.txt requirements.txt ./
+#8 CACHED
+
+#9 [5/7] RUN pip install --no-cache-dir -r requirements.server.txt -r requirements.txt
+#9 CACHED
+
+#10 [6/7] COPY . .
+#10 DONE 0.1s
+
+#11 [7/7] RUN mkdir -p /opt/cache && python prefetch.py && chmod -R a+rX /opt/cache
+#11 340.8 [prefetch] snowflake-arctic-embed-m-v1.5/tokenizer.json (0 MiB) in 1s from https://huggingface.co
+#11 340.8 [prefetch] gte-reranker-modernbert-base/tokenizer.json (3 MiB) in 2s from https://huggingface.co
+#11 340.8 [prefetch] snowflake-arctic-embed-m-v1.5/onnx/model_int8.onnx (105 MiB) in 30s from https://huggingface.co
+#11 340.8 [prefetch] gte-reranker-modernbert-base/onnx/model_int8.onnx (143 MiB) in 41s from https://huggingface.co
+#11 340.8 [prefetch] gte-reranker-modernbert-base/onnx/model.onnx (571 MiB) in 163s from https://huggingface.co
+#11 340.8 [prefetch] snowflake-arctic-embed-m-v1.5/onnx/model.onnx (415 MiB) in 103s from https://huggingface.co
+#11 340.8 [prefetch] done in 340s
+#11 DONE 340.9s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 62.0s done
+#12 exporting manifest sha256:9a414c00a94f7beece0e2e85fae5fecdda09263c3f62aacf0b1cdaa35f0bf596 0.0s done
+#12 exporting config sha256:384f2dcf9bdfe504628b5707e4b7ccf2ee625b146156f7f1a0030874d9be7fba 0.0s done
+#12 exporting attestation manifest sha256:aa0be4272821cfacc0aa7bcf4cf9568201c6a1032c03e8193815f2aac57f103b 0.0s done
+#12 exporting manifest list sha256:6e7e252e9aa524c93aa3b74333907081639b6bd4ca97daf207ed995bb59840b5 0.0s done
+#12 naming to docker.io/library/dataquest-local:latest 0.0s done
+#12 unpacking to docker.io/library/dataquest-local:latest
+#12 unpacking to docker.io/library/dataquest-local:latest 12.1s done
+#12 DONE 74.3s

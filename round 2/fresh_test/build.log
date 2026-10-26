@@ -1,0 +1,201 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 808B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 1.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 157B 0.0s done
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377
+#4 resolve docker.io/library/python:3.11-slim@sha256:b7a9e5f6a93d6d4a31f129bbd4bdee69efccb6ded0fb230d78aafaf37af98377 0.0s done
+#4 CACHED
+
+#5 [2/7] RUN useradd -m -u 1000 runner
+#5 ...
+
+#6 [internal] load build context
+#6 transferring context: 934B 0.0s done
+#6 DONE 0.1s
+
+#5 [2/7] RUN useradd -m -u 1000 runner
+#5 DONE 0.5s
+
+#7 [3/7] WORKDIR /app
+#7 DONE 0.1s
+
+#8 [4/7] COPY requirements.server.txt requirements.txt ./
+#8 DONE 0.1s
+
+#9 [5/7] RUN pip install --no-cache-dir -r requirements.server.txt -r requirements.txt
+#9 3.380 Collecting fastapi==0.142.2 (from -r requirements.server.txt (line 1))
+#9 3.526   Downloading fastapi-0.142.2-py3-none-any.whl.metadata (27 kB)
+#9 3.600 Collecting uvicorn==0.54.0 (from -r requirements.server.txt (line 2))
+#9 3.616   Downloading uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+#9 3.952 Collecting numpy==2.1.3 (from -r requirements.txt (line 1))
+#9 3.969   Downloading numpy-2.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+#9 3.992      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 3.4 MB/s eta 0:00:00
+#9 4.152 Collecting onnxruntime==1.20.1 (from -r requirements.txt (line 2))
+#9 4.172   Downloading onnxruntime-1.20.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (4.5 kB)
+#9 4.378 Collecting tokenizers==0.21.0 (from -r requirements.txt (line 3))
+#9 4.405   Downloading tokenizers-0.21.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+#9 4.464 Collecting PyStemmer==2.2.0.3 (from -r requirements.txt (line 4))
+#9 4.490   Downloading PyStemmer-2.2.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.2 kB)
+#9 4.658 Collecting starlette>=0.46.0 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 4.694   Downloading starlette-1.9.0-py3-none-any.whl.metadata (6.6 kB)
+#9 4.892 Collecting pydantic>=2.9.0 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 4.941   Downloading pydantic-2.14.1-py3-none-any.whl.metadata (133 kB)
+#9 4.975      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.0/133.0 kB 3.9 MB/s eta 0:00:00
+#9 5.025 Collecting typing-extensions>=4.8.0 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 5.055   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#9 5.086 Collecting typing-inspection>=0.4.2 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 5.098   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+#9 5.163 Collecting annotated-doc>=0.0.2 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 5.194   Downloading annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+#9 5.269 Collecting opentelemetry-api>=1.44.0 (from fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 5.304   Downloading opentelemetry_api-1.45.1-py3-none-any.whl.metadata (1.4 kB)
+#9 5.387 Collecting click>=7.0 (from uvicorn==0.54.0->-r requirements.server.txt (line 2))
+#9 5.407   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+#9 5.445 Collecting h11>=0.8 (from uvicorn==0.54.0->-r requirements.server.txt (line 2))
+#9 5.483   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+#9 5.524 Collecting coloredlogs (from onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 5.546   Downloading coloredlogs-15.0.1-py2.py3-none-any.whl.metadata (12 kB)
+#9 5.584 Collecting flatbuffers (from onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 5.605   Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+#9 5.620 Requirement already satisfied: packaging in /usr/local/lib/python3.11/site-packages (from onnxruntime==1.20.1->-r requirements.txt (line 2)) (26.3)
+#9 5.960 Collecting protobuf (from onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 5.976   Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+#9 6.030 Collecting sympy (from onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 6.048   Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+#9 6.193 Collecting huggingface-hub<1.0,>=0.16.4 (from tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 6.209   Downloading huggingface_hub-0.36.2-py3-none-any.whl.metadata (15 kB)
+#9 6.392 Collecting filelock (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 6.407   Downloading filelock-4.2.4-py3-none-any.whl.metadata (2.0 kB)
+#9 6.455 Collecting fsspec>=2023.5.0 (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 6.469   Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+#9 6.555 Collecting hf-xet<2.0.0,>=1.1.3 (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 6.570   Downloading hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+#9 6.643 Collecting pyyaml>=5.1 (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 6.656   Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+#9 6.730 Collecting requests (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 6.750   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#9 6.824 Collecting tqdm>=4.42.1 (from huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 6.844   Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+#9 6.855      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.4/57.4 kB 8.2 MB/s eta 0:00:00
+#9 6.911 Collecting annotated-types>=0.6.0 (from pydantic>=2.9.0->fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 6.926   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+#9 8.233 Collecting pydantic-core==2.50.1 (from pydantic>=2.9.0->fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 8.260   Downloading pydantic_core-2.50.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.5 kB)
+#9 8.333 Collecting anyio<5,>=4.0.0 (from starlette>=0.46.0->fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 8.359   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+#9 8.466 Collecting humanfriendly>=9.1 (from coloredlogs->onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 8.495   Downloading humanfriendly-10.0-py2.py3-none-any.whl.metadata (9.2 kB)
+#9 8.580 Collecting mpmath<1.4,>=1.1.0 (from sympy->onnxruntime==1.20.1->-r requirements.txt (line 2))
+#9 8.611   Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+#9 8.703 Collecting idna>=2.8 (from anyio<5,>=4.0.0->starlette>=0.46.0->fastapi==0.142.2->-r requirements.server.txt (line 1))
+#9 8.734   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#9 9.030 Collecting charset_normalizer<4,>=2 (from requests->huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 9.050   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+#9 9.062      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 4.7 MB/s eta 0:00:00
+#9 9.159 Collecting urllib3<3,>=1.26 (from requests->huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 9.185   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+#9 9.253 Collecting certifi>=2023.5.7 (from requests->huggingface-hub<1.0,>=0.16.4->tokenizers==0.21.0->-r requirements.txt (line 3))
+#9 9.277   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+#9 9.350 Downloading fastapi-0.142.2-py3-none-any.whl (144 kB)
+#9 9.370    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 144.4/144.4 kB 7.9 MB/s eta 0:00:00
+#9 9.386 Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+#9 9.411    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.4/87.4 kB 3.4 MB/s eta 0:00:00
+#9 9.424 Downloading numpy-2.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.3 MB)
+#9 11.13    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.3/16.3 MB 9.7 MB/s eta 0:00:00
+#9 11.14 Downloading onnxruntime-1.20.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (13.3 MB)
+#9 12.55    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 9.1 MB/s eta 0:00:00
+#9 12.57 Downloading tokenizers-0.21.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+#9 12.94    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 8.1 MB/s eta 0:00:00
+#9 12.96 Downloading PyStemmer-2.2.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (669 kB)
+#9 13.04    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 669.3/669.3 kB 8.3 MB/s eta 0:00:00
+#9 13.07 Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+#9 13.09 Downloading click-8.5.0-py3-none-any.whl (125 kB)
+#9 13.11    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.3/125.3 kB 7.3 MB/s eta 0:00:00
+#9 13.12 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#9 13.14 Downloading huggingface_hub-0.36.2-py3-none-any.whl (566 kB)
+#9 13.21    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 9.5 MB/s eta 0:00:00
+#9 13.22 Downloading opentelemetry_api-1.45.1-py3-none-any.whl (60 kB)
+#9 13.23    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.3/60.3 kB 8.7 MB/s eta 0:00:00
+#9 13.25 Downloading pydantic-2.14.1-py3-none-any.whl (488 kB)
+#9 13.31    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 488.1/488.1 kB 8.9 MB/s eta 0:00:00
+#9 13.34 Downloading pydantic_core-2.50.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.2 MB)
+#9 13.95    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 3.5 MB/s eta 0:00:00
+#9 13.97 Downloading starlette-1.9.0-py3-none-any.whl (80 kB)
+#9 13.99    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.3/80.3 kB 3.9 MB/s eta 0:00:00
+#9 14.01 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#9 14.02    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 4.4 MB/s eta 0:00:00
+#9 14.04 Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+#9 14.06 Downloading coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+#9 14.08    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.0/46.0 kB 3.9 MB/s eta 0:00:00
+#9 14.09 Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+#9 14.11 Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+#9 14.18    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 5.5 MB/s eta 0:00:00
+#9 14.20 Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+#9 15.08    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 7.2 MB/s eta 0:00:00
+#9 15.09 Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+#9 15.11 Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+#9 15.14    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.1/132.1 kB 5.3 MB/s eta 0:00:00
+#9 15.16 Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+#9 15.22    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 221.7/221.7 kB 4.7 MB/s eta 0:00:00
+#9 15.24 Downloading hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+#9 16.23    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 4.3 MB/s eta 0:00:00
+#9 16.25 Downloading humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+#9 16.26    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 kB 5.5 MB/s eta 0:00:00
+#9 16.29 Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+#9 16.42    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 4.1 MB/s eta 0:00:00
+#9 16.44 Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+#9 16.61    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.6/806.6 kB 4.8 MB/s eta 0:00:00
+#9 16.63 Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+#9 16.65    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.2/80.2 kB 4.2 MB/s eta 0:00:00
+#9 16.67 Downloading filelock-4.2.4-py3-none-any.whl (162 kB)
+#9 16.70    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.5/162.5 kB 8.3 MB/s eta 0:00:00
+#9 16.72 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#9 16.74    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 4.9 MB/s eta 0:00:00
+#9 16.76 Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+#9 16.78    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.1/135.1 kB 6.1 MB/s eta 0:00:00
+#9 16.79 Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+#9 16.84    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 270.0/270.0 kB 6.2 MB/s eta 0:00:00
+#9 16.85 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#9 16.87    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 4.6 MB/s eta 0:00:00
+#9 16.88 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+#9 16.90    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.7/135.7 kB 7.4 MB/s eta 0:00:00
+#9 17.17 Installing collected packages: PyStemmer, mpmath, flatbuffers, urllib3, typing-extensions, tqdm, sympy, pyyaml, protobuf, numpy, idna, humanfriendly, hf-xet, h11, fsspec, filelock, click, charset_normalizer, certifi, annotated-types, annotated-doc, uvicorn, typing-inspection, requests, pydantic-core, opentelemetry-api, coloredlogs, anyio, starlette, pydantic, onnxruntime, huggingface-hub, tokenizers, fastapi
+#9 27.79 Successfully installed PyStemmer-2.2.0.3 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.15.1 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.5.0 coloredlogs-15.0.1 fastapi-0.142.2 filelock-4.2.4 flatbuffers-25.12.19 fsspec-2026.9.0 h11-0.16.0 hf-xet-1.7.0 huggingface-hub-0.36.2 humanfriendly-10.0 idna-3.20 mpmath-1.3.0 numpy-2.1.3 onnxruntime-1.20.1 opentelemetry-api-1.45.1 protobuf-7.36.2 pydantic-2.14.1 pydantic-core-2.50.1 pyyaml-6.0.3 requests-2.34.2 starlette-1.9.0 sympy-1.14.0 tokenizers-0.21.0 tqdm-4.70.1 typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-2.8.0 uvicorn-0.54.0
+#9 27.79 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#9 27.92 
+#9 27.92 [notice] A new release of pip is available: 24.0 -> 26.2.2
+#9 27.92 [notice] To update, run: pip install --upgrade pip
+#9 DONE 29.0s
+
+#10 [6/7] COPY . .
+#10 DONE 0.1s
+
+#11 [7/7] RUN mkdir -p /opt/cache && python prefetch.py && chmod -R a+rX /opt/cache
+#11 192.6 [prefetch] snowflake-arctic-embed-m-v1.5/tokenizer.json (0 MiB) in 1s from https://huggingface.co
+#11 192.6 [prefetch] gte-reranker-modernbert-base/tokenizer.json (3 MiB) in 1s from https://huggingface.co
+#11 192.6 [prefetch] snowflake-arctic-embed-m-v1.5/onnx/model_int8.onnx (105 MiB) in 17s from https://huggingface.co
+#11 192.6 [prefetch] gte-reranker-modernbert-base/onnx/model_int8.onnx (143 MiB) in 23s from https://huggingface.co
+#11 192.6 [prefetch] gte-reranker-modernbert-base/onnx/model.onnx (571 MiB) in 88s from https://huggingface.co
+#11 192.6 [prefetch] snowflake-arctic-embed-m-v1.5/onnx/model.onnx (415 MiB) in 63s from https://huggingface.co
+#11 192.6 [prefetch] done in 192s
+#11 DONE 192.8s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 53.1s done
+#12 exporting manifest sha256:d3edd2b1e210bd79d7db9e4022be84e99c1de75d4726aed0737422891a001037 0.0s done
+#12 exporting config sha256:5feb2618c01936273f306b87a0584acb2b5f96b120cb27c9e4fb6788a336fc74 0.0s done
+#12 exporting attestation manifest sha256:a7fce1d22beb0f96b5ae9d2beaf27f335f2cf0197d798ee42cb87589b3a867a4 0.0s done
+#12 exporting manifest list sha256:4397f00b972bb1fce26ee5e2124aad261a4aedea849e0a27756eab267e0caf2c 0.0s done
+#12 naming to docker.io/library/dataquest-fresh:latest done
+#12 unpacking to docker.io/library/dataquest-fresh:latest
+ERROR: failed to build: failed to receive status: rpc error: code = Unavailable desc = error reading from server: EOF
